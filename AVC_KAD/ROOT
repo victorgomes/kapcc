@@ -1,0 +1,17 @@
+session "AVC_KAD" = "HOL" +
+  options [document = pdf, document_output = "output"]
+  theories [document = false]
+    (* Foo *)
+    (* Bar *)
+    "$AFP/KAD//Modal_Kleene_Algebra_Models"
+    "../P2S2R"  
+  theories
+    VC_KAD
+    (*VC_KAD_Examples*)
+    (*VC_KAD_dual*)
+    (*VC_KAD_dual_Examples*)
+    (*VC_KAD_wf*)
+    (*Transformer_Algebras*)
+    (*VC_KAD_scratch*)
+  document_files
+    "root.tex"

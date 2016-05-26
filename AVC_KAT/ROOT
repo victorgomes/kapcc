@@ -1,0 +1,16 @@
+session "AVC_KAT" = "HOL" +
+  options [document = pdf, document_output = "output"]
+  theories [document = false]
+    (* Foo *)
+    (* Bar *)
+    "../P2S2R"
+    "$AFP/KAT_and_DRA/SingleSorted/PHL_KAT" 
+    "$AFP/KAT_and_DRA/SingleSorted/KAT_Models"
+  theories
+    VC_KAT
+    VC_KAT_Examples
+    (*VC_KAT_Examples2*)
+    VC_RKAT
+    VC_RKAT_Examples
+  document_files
+    "root.tex"
