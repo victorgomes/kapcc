@@ -10,3 +10,6 @@ postconditions and program refinement can be built in a principled way.
 Modularity of the approach is demonstrated by variants that capture program
 termination and recursion, memory models for programs with pointers, and trace
 semantics relevant to concurrency verification.
+
+Also available in the Archive of Formal Proofs ([AFP](https://www.isa-afp.org/index.shtml)):<br/>
+[Program Construction and Verification Components Based on Kleene Algebra](https://www.isa-afp.org/entries/Algebraic_VCs.shtml)
